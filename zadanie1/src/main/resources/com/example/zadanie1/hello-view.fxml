@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zadanie1.HelloController">
+   <children>
+      <TextField fx:id="mmField" layoutX="34.0" layoutY="14.0" />
+      <TextField fx:id="cmField" layoutX="34.0" layoutY="51.0" />
+      <TextField fx:id="mField" layoutX="34.0" layoutY="88.0" />
+      <TextField fx:id="kmField" layoutX="34.0" layoutY="127.0" />
+      <Button layoutX="34.0" layoutY="169.0" mnemonicParsing="false" onAction="#convert" prefHeight="26.0" prefWidth="159.0" text="Preveď" />
+      <Label layoutX="209.0" layoutY="19.0" text="mm" />
+      <Label layoutX="209.0" layoutY="56.0" text="cm" />
+      <Label layoutX="209.0" layoutY="93.0" text="m" />
+      <Label layoutX="209.0" layoutY="132.0" text="km" />
+   </children>
+</Pane>
